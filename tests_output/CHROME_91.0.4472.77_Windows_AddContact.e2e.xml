@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="AddContact.e2e"
+    errors="1" failures="0" hostname="" id="" package="AddContact.e2e" skipped="7"
+    tests="0" time="0.000" timestamp="">
+  
+
+  
+    <system-err>
+        TypeError: page.dashboard is not a function
+   - writing an ES6 async test case? - keep in mind that commands return a Promise; 
+   - writing unit tests? - make sure to specify &#34;unit_tests_mode=true&#34; in your config.
+       at Object.before (B:\KeapPractise\tests\AddContact.e2e.js:22:26)
+       at new Promise (&lt;anonymous&gt;)
+    </system-err>
+  
+
+    
+    <error message="page.dashboard is not a function"><![CDATA[
+      TypeError: page.dashboard is not a function
+    at Object.before (B:\KeapPractise\tests\AddContact.e2e.js:22:26)
+    at Context.callAsync (B:\KeapPractise\node_modules\nightwatch\lib\testsuite\context.js:392:20)
+    at Context.invokeMethod (B:\KeapPractise\node_modules\nightwatch\lib\testsuite\context.js:343:21)
+    at B:\KeapPractise\node_modules\nightwatch\lib\testsuite\hooks\_basehook.js:79:24
+    at new Promise (&lt;anonymous&gt;)
+    at BeforeAll.run (B:\KeapPractise\node_modules\nightwatch\lib\testsuite\hooks\_basehook.js:54:14)
+    at Runnable.__runFn (B:\KeapPractise\node_modules\nightwatch\lib\testsuite\index.js:187:35)
+    at Runnable.run (B:\KeapPractise\node_modules\nightwatch\lib\testsuite\runnable.js:123:21)
+    at TestSuite.createRunnable (B:\KeapPractise\node_modules\nightwatch\lib\testsuite\index.js:489:33)
+    at TestSuite.handleRunnable (B:\KeapPractise\node_modules\nightwatch\lib\testsuite\index.js:494:18)
+      ]]></error>  
+
+  
+    
+    <testcase
+      name="Should login" classname="AddContact.e2e">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Should click on topNavMenu and click on contacts" classname="AddContact.e2e">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Should click on Add a Contact Button" classname="AddContact.e2e">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Should enter Contact details" classname="AddContact.e2e">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Should enter additional Contact Details" classname="AddContact.e2e">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="should navigate back to search results" classname="AddContact.e2e">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Should click on New Search Button and Should Delete" classname="AddContact.e2e">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

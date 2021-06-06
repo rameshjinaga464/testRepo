@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="7">
+
+  <testsuite name="AddContact.e2e"
+    errors="1" failures="1" hostname="" id="" package="AddContact.e2e" skipped="0"
+    tests="7" time="43.87" timestamp="">
+  
+    <testcase name="Should login" classname="AddContact.e2e" time="8.666" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Should click on topNavMenu and click on contacts" classname="AddContact.e2e" time="3.063" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Should click on Add a Contact Button" classname="AddContact.e2e" time="2.430" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Should enter Contact details" classname="AddContact.e2e" time="2.745" assertions="0">
+    </testcase>
+  
+    <testcase name="Should enter additional Contact Details" classname="AddContact.e2e" time="4.132" assertions="0">
+    </testcase>
+  
+    <testcase name="should navigate back to search results" classname="AddContact.e2e" time="8.807" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Should click on New Search Button and Should Delete" classname="AddContact.e2e" time="14.02" assertions="1">  <failure message="Timed out while waiting for element &lt;#Delete&gt; to be present for 5000 milliseconds. - expected &#34;visible&#34; but got: &#34;not found&#34; (5250ms)">    at Object.Should click on New Search Button and Should Delete (B:\KeapPractise\tests\AddContact.e2e.js:74:8)</failure>
+
+    
+    <error message="Timed out while waiting for element &lt;#Delete&gt; to be present for 5000 milliseconds. - expected [0;32m&#34;visible&#34;[0m but got: [0;31m&#34;not found&#34;[0m [0;90m(5250ms)[0m" type="error"><![CDATA[
+        at Object.Should click on New Search Button and Should Delete (B:\KeapPractise\tests\AddContact.e2e.js:74:8)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        NoSuchElementError: An error occurred while running .click() command on &lt;Element [name=@chunkDataLink]&gt;: 
+   {&#34;sessionId&#34;:&#34;995799b983f207aa7aabb1925dfcb5ff&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}
+       at Object.Should click on New Search Button and Should Delete (B:\KeapPractise\tests\AddContact.e2e.js:73:8)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,19 @@
+{
+  "name": "keappractise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^90.0.1",
+    "geckodriver": "^2.0.0"
+  },
+  "dependencies": {
+    "faker": "^5.5.3",
+    "nightwatch": "^1.6.4"
+  }
+}

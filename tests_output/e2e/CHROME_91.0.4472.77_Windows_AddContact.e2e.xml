@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="2">
+
+  <testsuite name="e2e.AddContact.e2e"
+    errors="1" failures="0" hostname="" id="" package="e2e" skipped="1"
+    tests="2" time="17.84" timestamp="">
+  
+    <testcase name="Should login" classname="e2e.AddContact.e2e" time="17.84" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Should click on topNavMenu and click on contacts" classname="e2e.AddContact.e2e" time="0.007000" assertions="0">
+    <error message="firstName is not defined" type="error"><![CDATA[
+    ReferenceError: firstName is not defined
+    at Object.Should click on topNavMenu and click on contacts (C:\Users\rj19163\Downloads\KeapPractise\KeapPractise\tests\e2e\AddContact.e2e.js:29:25)
+    at Context.call (C:\Users\rj19163\Downloads\KeapPractise\KeapPractise\node_modules\nightwatch\lib\testsuite\context.js:376:35)
+    at TestCase.run (C:\Users\rj19163\Downloads\KeapPractise\KeapPractise\node_modules\nightwatch\lib\testsuite\testcase.js:55:31)
+    at Runnable.handleRunnable [as __runFn] (C:\Users\rj19163\Downloads\KeapPractise\KeapPractise\node_modules\nightwatch\lib\testsuite\index.js:377:80)
+    at Runnable.run (C:\Users\rj19163\Downloads\KeapPractise\KeapPractise\node_modules\nightwatch\lib\testsuite\runnable.js:123:21)
+    at TestSuite.createRunnable (C:\Users\rj19163\Downloads\KeapPractise\KeapPractise\node_modules\nightwatch\lib\testsuite\index.js:489:33)
+    at TestSuite.handleRunnable (C:\Users\rj19163\Downloads\KeapPractise\KeapPractise\node_modules\nightwatch\lib\testsuite\index.js:494:18)
+    at createSession.then.then._ (C:\Users\rj19163\Downloads\KeapPractise\KeapPractise\node_modules\nightwatch\lib\testsuite\index.js:377:21)
+    at processTicksAndRejections (internal/process/next_tick.js:81:5)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        ReferenceError: firstName is not defined
+       at Object.Should click on topNavMenu and click on contacts (C:\Users\rj19163\Downloads\KeapPractise\KeapPractise\tests\e2e\AddContact.e2e.js:29:25)
+       at processTicksAndRejections (internal/process/next_tick.js:81:5)
+    </system-err>
+  
+
+    
+
+  
+    
+    <testcase
+      name="Should delete the newly created contact" classname="e2e.AddContact.e2e">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

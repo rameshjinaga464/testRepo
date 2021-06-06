@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="ContactRecordAppointment.e2e"
+    errors="0" failures="1" hostname="" id="" package="ContactRecordAppointment.e2e" skipped="10"
+    tests="1" time="18.64" timestamp="">
+  
+    <testcase name="Should Login Should login &amp; go to CRM &gt; Contacts" classname="ContactRecordAppointment.e2e" time="18.64" assertions="4">
+
+    
+
+    
+
+      <failure message="Testing if the URL contains &#39;contact/create&#39; in 5000ms - expected &#34;contains &#39;contact/create&#39;&#34; but got: &#34;https://jc251intg.infusiontest.com/Reports/searchTemplate.jsp?reportClass=AdvContactSearch&amp;view=resultsPage&amp;reportStateId=b5db730f-ce31-4d9d-9ffc-69f7efd09e15&#34; (5388ms)">    at Object.Should Login Should login &amp; go to CRM &gt; Contacts (B:\KeapPractise\tests\ContactRecordAppointment.e2e.js:33:15)</failure>
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        TypeError: page.dashboard is not a function
+   - writing an ES6 async test case? - keep in mind that commands return a Promise; 
+   - writing unit tests? - make sure to specify &#34;unit_tests_mode=true&#34; in your config.
+       at Object.before (B:\KeapPractise\tests\AddContact.e2e.js:22:26)
+       at new Promise (&lt;anonymous&gt;)
+    </system-err>
+  
+
+    
+
+  
+    
+    <testcase
+      name="Should add a test contact" classname="ContactRecordAppointment.e2e">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Should filter contact list by test contact email" classname="ContactRecordAppointment.e2e">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Should open contact record" classname="ContactRecordAppointment.e2e">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Should click add appointments button" classname="ContactRecordAppointment.e2e">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Should navigate to manage Appointment Page" classname="ContactRecordAppointment.e2e">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Should create new appointment" classname="ContactRecordAppointment.e2e">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Should Navigate to Default Window" classname="ContactRecordAppointment.e2e">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Should edit appointment" classname="ContactRecordAppointment.e2e">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Should delete appointment" classname="ContactRecordAppointment.e2e">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Should delete test contact" classname="ContactRecordAppointment.e2e">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="6"
+            failures="1"
+            tests="6">
+
+  <testsuite name="userLogin"
+    errors="6" failures="1" hostname="" id="" package="userLogin" skipped="1"
+    tests="6" time="49.78" timestamp="">
+  
+    <testcase name="Should login" classname="userLogin" time="7.636" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Should click on topNavMenu and click on contacts" classname="userLogin" time="2.099" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Should click on Add a Contact Button" classname="userLogin" time="3.023" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Should enter Contact details" classname="userLogin" time="21.26" assertions="0">
+    <error message="An error occurred while running .click() command on &lt;Element [name=@saveButton]&gt;: " type="error"><![CDATA[
+    Error
+    at Object.Should enter Contact details (B:\KeapPractise\tests\userLogin.js:36:8)
+    ]]></error>
+    
+    </testcase>
+  
+    <testcase name="Should enter additional Contact Details" classname="userLogin" time="10.56" assertions="0">
+    <error message="An error occurred while running .click() command on &lt;Element [name=@finalSaveButton]&gt;: " type="error"><![CDATA[
+    Error
+    at Object.Should enter additional Contact Details (B:\KeapPractise\tests\userLogin.js:39:50)
+    ]]></error>
+    
+    </testcase>
+  
+    <testcase name="should navigate back to search results" classname="userLogin" time="5.195" assertions="1">  <failure message="Timed out while waiting for element &lt;//a[text()=&#34;back to search results&#34;]&gt; to be present for 5000 milliseconds. - expected &#34;visible&#34; but got: &#34;not found&#34; (5190ms)">    at Object.should navigate back to search results (B:\KeapPractise\tests\userLogin.js:44:8)</failure>
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        NoSuchElementError: An error occurred while running .setValue() command on &lt;Element [name=@firstNameInput]&gt;: 
+   {&#34;sessionId&#34;:&#34;2fc89a37c0fb0f19bd6e6e1ab4b8ca51&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}
+       at Object.Should enter Contact details (B:\KeapPractise\tests\userLogin.js:33:8)
+  NoSuchElementError: An error occurred while running .setValue() command on &lt;Element [name=@lastNameInput]&gt;: 
+   {&#34;sessionId&#34;:&#34;2fc89a37c0fb0f19bd6e6e1ab4b8ca51&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}
+       at Object.Should enter Contact details (B:\KeapPractise\tests\userLogin.js:34:8)
+  NoSuchElementError: An error occurred while running .setValue() command on &lt;Element [name=@emailInput]&gt;: 
+   {&#34;sessionId&#34;:&#34;2fc89a37c0fb0f19bd6e6e1ab4b8ca51&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}
+       at Object.Should enter Contact details (B:\KeapPractise\tests\userLogin.js:35:8)
+  NoSuchElementError: An error occurred while running .click() command on &lt;Element [name=@saveButton]&gt;: 
+   {&#34;sessionId&#34;:&#34;2fc89a37c0fb0f19bd6e6e1ab4b8ca51&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}
+       at Object.Should enter Contact details (B:\KeapPractise\tests\userLogin.js:36:8)
+  NoSuchElementError: An error occurred while running .setValue() command on &lt;Element [name=@companyInput]&gt;: 
+   {&#34;sessionId&#34;:&#34;2fc89a37c0fb0f19bd6e6e1ab4b8ca51&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}
+       at Object.Should enter additional Contact Details (B:\KeapPractise\tests\userLogin.js:39:16)
+  NoSuchElementError: An error occurred while running .click() command on &lt;Element [name=@finalSaveButton]&gt;: 
+   {&#34;sessionId&#34;:&#34;2fc89a37c0fb0f19bd6e6e1ab4b8ca51&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}
+       at Object.Should enter additional Contact Details (B:\KeapPractise\tests\userLogin.js:39:50)
+    </system-err>
+  
+
+    
+
+  
+    
+    <testcase
+      name="Should click on New Search Button" classname="userLogin">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
