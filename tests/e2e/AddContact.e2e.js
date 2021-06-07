@@ -32,14 +32,13 @@ module.exports = {
   },
 
   "Should login": function ({ auth }) {
+    console.log('Login step++++');
     auth.login();
   },
 
   "Should click on topNavMenu and click on contacts": ({ contacts }) => {
     const { firstName, lastName, testEmail } = testData.contactData;
-    console.log(firstName);
-    console.log(lastName);
-    console.log(testEmail);
+
     contacts.addContact(firstName, lastName, testEmail);
   },
 
