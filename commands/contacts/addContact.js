@@ -1,5 +1,7 @@
 // eslint-disable-next-line func-names
-module.exports.command = function (firstName = "", lastName = "", email = "") {
+module.exports.command = function ({
+  firstName = "", lastName = "", testEmail = "",
+} = {}) {
   const contactsPage = this.page.ContactsPage();
   const addAContactPage = this.page.AddAContactPage();
 
@@ -9,7 +11,7 @@ module.exports.command = function (firstName = "", lastName = "", email = "") {
     .waitForElementVisible("@firstNameInput")
     .setValue("@firstNameInput", firstName)
     .setValue("@lastNameInput", lastName)
-    .setValue("@emailInput", email)
+    .setValue("@emailInput", testEmail)
     .click("@saveButton")
     .assert.title(firstName + " " + lastName);
 

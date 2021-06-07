@@ -37,9 +37,9 @@ module.exports = {
   },
 
   "Should click on topNavMenu and click on contacts": ({ contacts }) => {
-    const { firstName, lastName, testEmail } = testData.contactData;
+    const { contactData } = testData;
 
-    contacts.addContact(firstName, lastName, testEmail);
+    contacts.addContact(contactData);
   },
 
   "Should delete the newly created contact": ({ tearDown }) => {
