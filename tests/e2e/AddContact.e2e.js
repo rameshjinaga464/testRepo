@@ -5,18 +5,18 @@ const {
   randomWord,
 } = require('../../helpers/DataHelper');
 
-let dashboardPage;
 let addContact;
 let contactPage;
+let dashboardPage;
 let manageContactPage;
 
 let testData;
 
 module.exports = {
   before: ({ page }) => {
-    dashboardPage = page.DashboardPage();
     addContact = page.AddAContactPage();
     contactPage = page.ContactsPage();
+    dashboardPage = page.DashboardPage();
     manageContactPage = page.ManageContactPage();
 
     testData = {
@@ -32,11 +32,10 @@ module.exports = {
   },
 
   "Should login": function ({ auth }) {
-    console.log('Login step++++');
     auth.login();
   },
 
-  "Should click on topNavMenu and click on contacts": ({ contacts }) => {
+  "Should create a new contact": ({ contacts }) => {
     const { contactData } = testData;
 
     contacts.addContact(contactData);
